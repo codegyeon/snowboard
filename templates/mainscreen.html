@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+
+    <!-- jquery, ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- title -->
+    <title>스노우코드</title>
+
+    <!-- font -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../static/css/mystyle.css">
+
+    <!-- javascript -->
+    <script src="../static/js/javscript.js"></script>
+
+    <!--  서버 연결을 위한 코드 (css) -->
+    <!--<link rel="stylesheet" href="{{url_for('static', filename='css/mystyle.css')}}">-->
+</head>
+<body>
+    <br>
+
+    <!-- 컨셉에 맞춘 이미지 -->
+    <div class="box1"></div>
+
+    <!-- 타이틀 제목 -->
+    <h1 class="mainscreen_title"><p class="regular">스노우코드</p></h1>
+
+    <!-- 메인 상자 -->
+    <div id="box_container" class="box_container">
+
+        <!-- 현재 목록 -->
+        <h3 id="page-title" class="box_title"></h3>
+
+        <!-- 그리드 나눔 -->
+        <div class="grid">
+
+            <!-- 목록 -->
+            <div class="list_list">
+                <ul style="list-style: none">
+                    <li><button id="intro1" onclick="changeTilte(this)" class="buttons">소개</button></li>
+                    <li><button id="intro2" onclick="changeTilte(this)" class="buttons">게시글</button></li>
+                    <li><button id="intro3" onclick="changeTilte(this)" class="buttons">질문하기</button></li>
+                </ul>
+            </div>
+
+            <!-- 목록 내용 -->
+            <div class="list_f">
+                <div id="content1">
+                    스노보드는 사용자가 일반적으로 고정된 두 발을 동일한 보드에 두는 보드입니다.<br>
+                    보드 자체는 대부분의 스키보다 넓으며 눈 위에서 활공할 수 있습니다.<br>
+                    스노우보드 너비는 6~12인치 또는 15~30센티미터입니다. 스노우보드는 사용자의 자세에 따라 모노스키와 구별됩니다.
+                </div>
+                <div id="content2">
+
+                </div>
+                <div id="content3">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
